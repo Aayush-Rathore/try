@@ -1,0 +1,13 @@
+.navLinks > ul > li {
+  transition: all 0.2s;
+}
+
+.navLinks > ul:hover > li {
+  filter: blur(2px);
+  cursor: pointer;
+}
+
+.navLinks > ul > li:hover {
+  transform: scale(1.04);
+  filter: none;
+}
